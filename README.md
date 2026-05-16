@@ -152,6 +152,6 @@ $MODU is a utility token, not a financial instrument or investment. Token value 
 
 ## Links
 
-- Website: [modulr.xyz](https://modulr.xyz)
+- Website: [modulr402.com](https://modulr402.com/)
 - X: [@Modulr402](https://x.com/Modulr402)
 - Token: pump.fun — search $MODU
