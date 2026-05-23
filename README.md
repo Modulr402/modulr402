@@ -12,7 +12,7 @@ Live on Solana mainnet. Real USDC payments. Permanent report storage.
 
 Modulr is a live, functioning on-chain marketplace for crypto infrastructure tools. Users connect a Solana wallet, pay in USDC, and receive immediate access to professional-grade reports and analytics generated instantly in-browser and permanently saved to their dashboard.
 
-Every tool on Modulr is pay-per-use. One payment unlocks one generation. Reports are saved to the connected wallet’s dashboard and re-downloadable at any time in any of five formats: PDF, HTML, MD, TXT or JSON.
+Every tool on Modulr is pay-per-use. One payment unlocks one generation. Reports are saved to the connected wallet's dashboard and re-downloadable at any time in any of five formats: PDF, HTML, MD, TXT or JSON.
 
 No accounts. No subscriptions. No data sent to a server during tool use.
 
@@ -20,7 +20,7 @@ No accounts. No subscriptions. No data sent to a server during tool use.
 
 ## Live Tools
 
-Three tools are live on Modulr today.
+Four tools are live on Modulr today.
 
 ### Wallet Risk Report Generator — 0.25 USDC
 
@@ -36,6 +36,10 @@ Takes structured project inputs and produces a readiness score with section-leve
 
 Scans pasted smart contract code or architecture notes for 16 vulnerability pattern categories across Solidity, Rust/Anchor and Move. Produces severity-ranked findings (Critical, High, Medium, Low), a security checklist, suggested fixes per finding and positive signals.
 
+### Token Website Generator — 3.00 USDC
+
+Generates a complete, production-ready token launch website from project details. AI-powered, fully responsive, single HTML file with inline CSS, animations and a copy-CA button. Four style vibes: minimal, aggressive, professional or neon. Supports logo upload and community link detection for Twitter, Telegram and Discord.
+
 ---
 
 ## How it Works
@@ -44,9 +48,9 @@ Scans pasted smart contract code or architecture notes for 16 vulnerability patt
 2. Browse the marketplace and select a tool
 3. Pay in USDC — one payment, one generation
 4. Paste the transaction signature for on-chain verification
-5. Generate your report instantly in-browser
-6. Export in PDF, HTML, MD, TXT or JSON
-7. Report saved permanently to your dashboard, re-downloadable anytime
+5. Generate your report or asset instantly in-browser
+6. Export in PDF, HTML, MD, TXT or JSON — or download as a ZIP for site tools
+7. Output saved permanently to your dashboard, re-downloadable anytime
 
 ---
 
@@ -65,14 +69,13 @@ Scans pasted smart contract code or architecture notes for 16 vulnerability patt
 
 ## Roadmap
 
-### Q2 2026 — Foundation Layer (In Progress)
+### Q2 2026 — Foundation Layer (Completed)
 
-Building the core Modulr infrastructure and marketplace foundation.
+Built the core Modulr infrastructure and marketplace foundation.
 
-- Marketplace core architecture — scalable frontend and backend structure for the future marketplace ecosystem
-- Wallet infrastructure layer — Phantom, Solflare and MetaMask connectivity with wallet-authenticated purchases
-- Modulr design system — premium UI framework with reusable components and motion systems
-- 2 new premium components launching this quarter
+- ✓ Marketplace core architecture — scalable frontend and backend structure for the future marketplace ecosystem
+- ✓ Wallet infrastructure layer — Phantom and Solflare connectivity with wallet-authenticated purchases
+- ✓ Modulr design system — premium UI framework with reusable components and motion systems
 
 ### Q3 2026 — Marketplace Systems (Planned)
 
