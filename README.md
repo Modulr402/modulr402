@@ -1,6 +1,6 @@
 # Modulr
 
-**An AI component marketplace built for crypto-native builders and technical users.**
+**An x402 component marketplace built for crypto-native builders and technical users.**
 
 Access premium on-chain tools and receive structured professional output, exportable in any format. No accounts, no subscriptions, no friction.
 
@@ -24,17 +24,21 @@ Four tools are live on Modulr today.
 
 ### Wallet Risk Report Generator — 0.25 USDC / $MODU
 
-Fetches up to 1,000 on-chain transactions via Helius RPC and computes a heuristic risk score across five dimensions: wallet age, activity level, token diversity, balance consistency and dormancy.
+Fetches up to 1,000 on-chain transactions via Helius RPC and computes a heuristic risk score across five dimensions: wallet age, activity level, token diversity, balance consistency and dormancy. Each dimension includes a confidence label based on available data quality.
 
-Outputs a full report with risk score, score breakdown, signal analysis, explainability notes and key metrics. Exportable in PDF, HTML, MD, TXT or JSON.
+Outputs a full report with risk score, wallet type classification (Bot, Whale, DeFi Trader, NFT Collector, Pump.fun Trader and more), detected protocols (Jupiter, Raydium, Orca, Magic Eden, pump.fun, Meteora and more), NFT holdings count via Helius DAS, funding source from oldest transaction, 12-month activity timeline, counterparty analysis with pattern detection and a plain-English analysis verdict. Exportable in PDF, HTML, MD, TXT or JSON.
 
 ### Token Launch Checklist Generator — 0.50 USDC / $MODU
 
-Takes structured project inputs and produces a readiness score with section-level analysis, risk flags and recommended next steps. Covers token and contract setup, liquidity preparation, wallet and security readiness, marketing and community, and operational launch planning.
+Takes structured project inputs and produces a readiness score with section-level analysis, risk flags and recommended next steps. Paste a Solana mint address to trigger on-chain verification via Helius — fetches mint authority, freeze authority, supply, decimals and liquidity pool status directly from chain, then flags discrepancies between what you claimed and what the chain actually shows.
+
+Outputs a launch verdict paragraph with go/no-go assessment, section blockers with Critical, High and Medium impact labels, risk flags and recommended next steps. Works without a mint address for non-Solana or pre-deploy projects.
 
 ### Smart Contract Audit Summary — 1.00 USDC / $MODU
 
-Scans pasted smart contract code or architecture notes for 16 vulnerability pattern categories across Solidity, Rust/Anchor and Move. Produces severity-ranked findings (Critical, High, Medium, Low), a security checklist, suggested fixes per finding and positive signals.
+Scans pasted Solidity, Rust/Anchor or Move code against 30+ vulnerability patterns across Critical, High, Medium, Low and Informational severity levels. Includes a dedicated gas optimisation section with 8 patterns covering storage loops, redundant writes and type inefficiencies.
+
+Outputs a security risk score, a separate code quality score (0–100) measuring documentation, standards usage and validation patterns, severity-ranked findings, a gas optimisation section, a security checklist, suggested fixes, positive signals and an executive summary with a plain-English deploy recommendation: Deploy, Deploy with caution, Address findings first or Do not deploy.
 
 ### Token Website Generator — 3.00 USDC / $MODU
 
@@ -188,7 +192,6 @@ $MODU is a utility token, not a financial instrument or investment. Token value 
 
 ## Links
 
-- Website: [modulr402.com](https://modulr402.com/)
+- Website: [modulr.so](https://modulr.so/)
 - X: [@Modulr402](https://x.com/Modulr402)
 - Token: pump.fun — search $MODU
-
