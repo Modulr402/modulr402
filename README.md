@@ -20,7 +20,7 @@ No accounts. No subscriptions. No data sent to a server during tool use.
 
 ## Live Tools
 
-Four tools are live on Modulr today.
+Five tools are live on Modulr today.
 
 ### Wallet Risk Report Generator — 0.25 USDC / $MODU
 
@@ -43,6 +43,33 @@ Outputs a security risk score, a separate code quality score (0–100) measuring
 ### Token Website Generator — 3.00 USDC / $MODU
 
 Generates a complete, production-ready token launch website from project details. AI-powered, fully responsive, single HTML file with inline CSS, animations and a copy-CA button. Four style vibes: minimal, aggressive, professional or neon. Supports logo upload and community link detection for Twitter, Telegram and Discord.
+
+### AI Agent Generator — 2.00 USDC / $MODU
+
+Describe the agent you want and get a complete, production-ready TypeScript script back. Specify the agent type, target chain, trigger conditions, parameters and framework — Modulr generates a complete, runnable agent with setup instructions, required environment variables and a dependencies list. Download as a ZIP.
+
+8 agent types: Trading Bot, Wallet Monitor, Price Alert, DeFi Automation, NFT Sniper, Portfolio Tracker, Liquidity Manager and Custom. Supports Solana, Ethereum, Base and Arbitrum. Frameworks: Vanilla TypeScript, Anchor, Ethers.js and Viem.
+
+---
+
+## Modulr SDK
+
+The Modulr SDK is live. Developers can install it with a single command and call Modulr's tools programmatically — no API key, no setup, no browser required.
+
+```bash
+npm install @modulr/sdk
+```
+
+```ts
+import { Modulr } from '@modulr/sdk'
+
+const modulr = new Modulr()
+
+const risk = await modulr.walletRisk.analyze('9apA5U8...')
+const agent = await modulr.agent.generate({ agentName: 'Whale Tracker', agentType: 'Wallet Monitor', ... })
+```
+
+Full documentation at [modulr402.com/developers](https://modulr402.com/developers). SDK source at [github.com/Modulr402/modulr-sdk](https://github.com/Modulr402/modulr-sdk).
 
 ---
 
@@ -76,6 +103,8 @@ Generates a complete, production-ready token launch website from project details
 - Multi-format export: PDF, HTML, MD, TXT, JSON
 - Wallet-authenticated dashboard
 - Phantom and Solflare wallet support
+- Modulr SDK — programmatic access to all tools
+- Listed on Voidly and Meterflow agent marketplaces
 
 ---
 
@@ -110,22 +139,28 @@ Keycard is the access layer for Solana projects — gate content, communities an
 - [keycardsol.xyz](https://keycardsol.xyz/)
 - [@keycardsol](https://x.com/keycardsol)
 
+### Voidly
+Modulr tools are listed in the Voidly Pay marketplace — AI agents can discover and pay for Modulr tools autonomously via x402.
+- [voidly.ai/pay/marketplace](https://voidly.ai/pay/marketplace)
+- [@Voidly_ai](https://x.com/Voidly_ai)
+
 ---
 
 ## Roadmap
 
-### Q2 2026 — Foundation Layer (Completed)
+### Q2 2026 — Foundation Layer (Complete)
 
 - ✓ Marketplace core architecture
 - ✓ Wallet infrastructure layer — Phantom and Solflare connectivity
 - ✓ Modulr design system
 - ✓ $MODU Payment System — one-click checkout, discount tiers, on-chain verification
+- ✓ Modulr SDK — programmatic access to all tools, no API key required
 
 ### Q3 2026 — Marketplace Systems (Planned)
 
-- Modulr SDK — programmatic access to all Modulr tools
-- On-Chain Referral System — wallet-based referral tracking and $MODU rewards
-- Creator Submission Layer — open tool submissions with on-chain revenue attribution
+- Webhook & Event Infrastructure — real-time push notifications for analysis completion, risk threshold breaches and on-chain activity
+- $MODU Payment Infrastructure — native payment support with wallet-based checkout flows
+- Secure Digital Delivery — wallet-authenticated delivery with protected downloads and ownership verification
 
 ### Q4 2026 — Infrastructure Expansion (Research)
 
@@ -193,5 +228,7 @@ $MODU is a utility token, not a financial instrument or investment. Token value 
 ## Links
 
 - Website: [modulr402.com](https://modulr402.com/)
+- Developers: [modulr402.com/developers](https://modulr402.com/developers)
+- SDK: [github.com/Modulr402/modulr-sdk](https://github.com/Modulr402/modulr-sdk)
 - X: [@Modulr402](https://x.com/Modulr402)
 - Token: pump.fun — search $MODU
