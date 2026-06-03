@@ -104,7 +104,7 @@ Full documentation at [modulr402.com/developers](https://modulr402.com/developer
 - Wallet-authenticated dashboard
 - Phantom and Solflare wallet support
 - Modulr SDK — programmatic access to all tools
-- Listed on Voidly and Meterflow agent marketplaces
+- Discoverable by AI agents via Voidly Pay marketplace
 
 ---
 
@@ -139,10 +139,13 @@ Keycard is the access layer for Solana projects — gate content, communities an
 - [keycardsol.xyz](https://keycardsol.xyz/)
 - [@keycardsol](https://x.com/keycardsol)
 
-### Voidly
-Modulr tools are listed in the Voidly Pay marketplace — AI agents can discover and pay for Modulr tools autonomously via x402.
+---
+
+## Integrations
+
+### Voidly Pay
+Modulr tools are listed in the Voidly Pay marketplace. AI agents can discover and call Modulr tools autonomously via x402 without going through the website.
 - [voidly.ai/pay/marketplace](https://voidly.ai/pay/marketplace)
-- [@Voidly_ai](https://x.com/Voidly_ai)
 
 ---
 
