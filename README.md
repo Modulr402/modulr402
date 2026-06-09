@@ -12,7 +12,7 @@ Live on Solana mainnet. Pay with USDC or $MODU. Permanent report storage.
 
 Modulr is a live, functioning on-chain marketplace for crypto infrastructure tools. Users connect a Solana wallet, pay in USDC or $MODU, and receive immediate access to professional-grade reports and analytics generated instantly in-browser and permanently saved to their dashboard.
 
-Every tool on Modulr is pay-per-use. One payment unlocks one generation. Reports are saved to the connected wallet's dashboard and re-downloadable at any time in any of five formats: PDF, HTML, MD, TXT or JSON.
+Every tool on Modulr is pay-per-use. One payment unlocks one generation. Reports are saved to the connected wallet dashboard and re-downloadable at any time in any of five formats: PDF, HTML, MD, TXT or JSON.
 
 No accounts. No subscriptions. No data sent to a server during tool use.
 
@@ -52,9 +52,51 @@ Describe the agent you want and get a complete, production-ready TypeScript scri
 
 ---
 
+## Creator Marketplace
+
+The creator marketplace at [modulr402.com/marketplace](https://modulr402.com/marketplace) is an open listing of x402-payable tools built by external developers. Any developer can submit a tool, have it reviewed and earn USDC per call from day one.
+
+### How it works for creators
+
+1. Build an x402-compatible API endpoint
+2. Submit at [modulr402.com/marketplace/submit](https://modulr402.com/marketplace/submit) — pay a $10 USDC listing fee
+3. Modulr verifies the endpoint live, checks quality flags and confirms the fee on-chain
+4. Approved tools go live at their own URL with TypeScript and cURL snippets generated automatically
+5. Callers pay in USDC via x402 directly to the creator — Modulr takes no cut per call
+
+The listing fee is refundable if the tool is not approved and listed.
+
+### Official tools
+
+Seven x402-payable tools built by Modulr are live in the marketplace:
+
+| Tool | Category | Price |
+|---|---|---|
+| Solana Whale Tracker | Analytics | $0.10 |
+| Token Holder Analyzer | Analytics | $0.12 |
+| DeFi Liquidity Scanner | Analytics | $0.15 |
+| NFT Collection Analyzer | Analytics | $0.12 |
+| Transaction Decoder | Data | $0.08 |
+| Wallet PnL Tracker | Analytics | $0.15 |
+| DeFi Protocol Risk Scanner | Security | $0.20 |
+
+All backed by live Helius data and AI-powered analysis. Each official tool carries a verified badge on the marketplace.
+
+### Discovery features
+
+- Search by tool name, tag or creator
+- Filter by category: Security / Analytics / Automation / Data / Development
+- Filter by source: Official vs Community (with live counts)
+- Sort by newest, price low to high or price high to low
+- Click any tag chip to instantly filter by that tag
+- New badge on community tools approved within the last 14 days
+- More from @creator section on each tool detail page
+
+---
+
 ## Modulr SDK
 
-The Modulr SDK is live. Developers can install it with a single command and call Modulr's tools programmatically — no API key, no setup, no browser required.
+The Modulr SDK is live. Developers can install it with a single command and call Modulr tools programmatically — no API key, no setup, no browser required.
 
 ```bash
 npm install @modulr/sdk
@@ -104,7 +146,8 @@ Full documentation at [modulr402.com/developers](https://modulr402.com/developer
 - Wallet-authenticated dashboard
 - Phantom and Solflare wallet support
 - Modulr SDK — programmatic access to all tools
-- Discoverable by AI agents via Voidly Pay marketplace
+- Creator Marketplace — open listings, x402 payments, community-built tools
+- Discoverable by AI agents via Meterflow, Voidly Pay and Dexter
 
 ---
 
@@ -147,6 +190,9 @@ Keycard is the access layer for Solana projects — gate content, communities an
 Modulr tools are listed in the Voidly Pay marketplace. AI agents can discover and call Modulr tools autonomously via x402 without going through the website.
 - [voidly.ai/pay/marketplace](https://voidly.ai/pay/marketplace)
 
+### Dexter
+Modulr tools are callable via Dexter, a second x402 facilitator. Agents using Dexter can discover and pay for Modulr tools natively via x402.
+
 ---
 
 ## Roadmap
@@ -158,6 +204,8 @@ Modulr tools are listed in the Voidly Pay marketplace. AI agents can discover an
 - ✓ Modulr design system
 - ✓ $MODU Payment System — one-click checkout, discount tiers, on-chain verification
 - ✓ Modulr SDK — programmatic access to all tools, no API key required
+- ✓ Creator Marketplace — open tool listings, x402 endpoint verification, admin review, $10 USDC listing fee
+- ✓ Seven official x402 tools live in the marketplace
 
 ### Q3 2026 — Marketplace Systems (Planned)
 
@@ -231,6 +279,7 @@ $MODU is a utility token, not a financial instrument or investment. Token value 
 ## Links
 
 - Website: [modulr402.com](https://modulr402.com/)
+- Marketplace: [modulr402.com/marketplace](https://modulr402.com/marketplace)
 - Developers: [modulr402.com/developers](https://modulr402.com/developers)
 - SDK: [github.com/Modulr402/modulr-sdk](https://github.com/Modulr402/modulr-sdk)
 - X: [@Modulr402](https://x.com/Modulr402)
